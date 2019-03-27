@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <!--单选-->
+    <item android:title="     请选择类别">
+        <menu >
+            <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/plant"
+            android:icon="@drawable/plants"
+            android:title="识别植物"
+            />
+        <item
+            android:id="@+id/car"
+            android:icon="@drawable/car"
+            android:title="识别车辆" />
+        <item
+            android:id="@+id/anmial"
+            android:icon="@drawable/animal"
+            android:title="识别动物" />
+        <item
+            android:id="@+id/logo"
+            android:icon="@drawable/logo_1"
+            android:title="识别Logo" />
+        <item
+            android:id="@+id/food"
+            android:icon="@drawable/dishes"
+            android:title="识别菜品" />
+             </group>
+        </menu>
+    </item>
+</menu>
